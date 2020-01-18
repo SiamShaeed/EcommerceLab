@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.col-1 { width: 8.33%}
+.col-2 { width: 16.66%}
+.col-3 { width: 25%}
+.col-4 { width: 33.33%}
+.col-5 { width: 41.66%}
+.col-6 { width: 50%}
+.col-7 { width: 58.33%}
+.col-8 { width: 66.66%}
+.col-9 { width: 75%}
+.col-10 { width: 83.33%; }
+.col-11 { width: 91.66%}
+.col-12 { width: 100%}
+
+[class*='col-']{
+    float: left;
+    border: 1px solid gray;
+}
+
+.row:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.container{
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.title_style{
+    width: 24%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    font-size: 29px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Comic Sans MS;
+    background: #1D4174;
+    cursor: pointer;
+    color: white;
+    border: 2px solid #005CA9;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.title_style:hover{
+    border-radius: 10%;
+}
+.gellary_wraper{
+    width: 70%;
+    margin: 0 auto;
+    
+}
+.first_height{
+    height: 200px;
+}
+
+/*Code For Rutine*/
+.header{
+    text-align: center;
+}
+.marginauto{
+    margin: 0 auto;
+}
+.rutineauto{
+    margin: 0 auto !important;
+    text-align: center;
+}
+.bordernone .col-6{
+    border: none;
+}
+.bordernone .col-3{
+    border-color:white;
+}
+.techeralign{
+    margin: 0 auto;
+}
+.acadamicinfo .col-1{
+    border-color: white;
+}
+.acadamicinfo .col-8{
+    border-color: white;
+}
+.acadamicinfo .col-10{
+    border-color: white;
+}
+.acadamicinfo .col-4{
+    border-color: white;
+}
+
+.markborder tr{
+    border: none;
+}
+.markborder td{
+    border: none;
+}
+.markborder th{
+    border: none;
+}
